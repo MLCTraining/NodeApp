@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("MLCTraining/nodeapp")
+        app = docker.build("mlctraining/nodeapp")
     }
 
     stage('Test image') {
